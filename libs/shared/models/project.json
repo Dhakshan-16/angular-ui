@@ -1,0 +1,14 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/shared/models/src",
+  "prefix": "bfi",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/shared/models/**/*.ts"]
+      }
+    }
+  },
+  "tags": ["models"]
+}
